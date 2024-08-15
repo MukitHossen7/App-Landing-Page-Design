@@ -6,8 +6,122 @@
     <title>App Landing Page Design</title>
     <link rel="stylesheet" href="src/input.css" />
     <link rel="stylesheet" href="src/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <h2 class="bg-red-700">Hello Future Devloper</h2>
+    <header>
+      <!-- nav-bar -->
+      <nav
+        class="container mx-auto font-roboto mt-10 flex justify-between items-center gap-10 flex-col lg:flex-row px-3 lg:px-0"
+      >
+        <div class="flex gap-10 lg:gap-20 items-center flex-col lg:flex-row">
+          <div class="relative">
+            <img src="images/logo/Group.png" alt="" />
+            <img
+              src="images/logo/TM.png"
+              alt=""
+              class="absolute -mt-6 ml-[108px]"
+            />
+          </div>
+          <div>
+            <ul class="flex flex-wrap gap-6 lg:gap-10 text-xl font-medium">
+              <li><a href="#" class="text-[#FF5555]">Home</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Features</a></li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <button
+            class="bg-[#000000] text-white inline-block py-4 px-12 text-lg font-medium rounded-md"
+          >
+            Download
+          </button>
+        </div>
+      </nav>
+
+      <!-- banner -->
+      <div
+        class="container mx-auto flex flex-col lg:flex-row font-roboto mt-10 border-2 border-red-500"
+      >
+        <!-- child-1 -->
+        <div class="flex-1">
+          <div class="relative">
+            <h1 class="text-6xl font-bold mb-6">
+              Make The Best <br />
+              Financial Decisions
+            </h1>
+            <p class="text-lg font-medium">
+              Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet
+              faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.
+            </p>
+            <div class="absolute mt-[-350px] ml-20">
+              <img src="images/Group 35896.png" alt="" class="opacity-85" />
+            </div>
+          </div>
+          <div class="flex gap-12 mt-6">
+            <div>
+              <button
+                class="bg-black text-white font-medium text-lg px-6 py-4 rounded-md"
+              >
+                Get Started <i class="fa-solid fa-arrow-right ml-3"></i>
+              </button>
+            </div>
+            <div class="flex gap-4 items-center">
+              <button><i class="fa-regular fa-circle-play text-xl"></i></button>
+              <p class="text-lg font-medium">Watch video</p>
+            </div>
+          </div>
+          <div class="mt-6 relative">
+            <img src="images/Star 8.png" alt="" class="absolute mt-16 ml-36" />
+            <img src="images/Group 35924.png" alt="" />
+          </div>
+        </div>
+        <!-- child-2 -->
+        <div class="flex-1 border-2 border-red-500 relative">
+          <div class="">
+            <img
+              src="images/Ellipse 2155.png"
+              alt=""
+              class="absolute mt-40 ml-64 -z-10"
+            />
+            <img
+              src="images/Ellipse 2156.png"
+              alt=""
+              class="absolute mt-40 ml-52 -z-10"
+            />
+            <img
+              src="images/Ellipse 2157.png"
+              alt=""
+              class="absolute mt-40 ml-40 -z-10"
+            />
+          </div>
+          <div>
+            <img
+              src="images/iPhone-13.png"
+              alt=""
+              class="absolute z-50 -mt-3"
+            />
+            <img
+              src="images/iPhone-14.png"
+              alt=""
+              class="absolute mt-20 ml-32 z-40"
+            />
+            <img
+              src="images/iPhone-13.png"
+              alt=""
+              class="absolute mt-40 ml-64 z-30"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
   </body>
 </html>
